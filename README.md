@@ -6,7 +6,6 @@ def bi_demo(image):#边缘保留滤波
     dst=cv.bilateralFilter(image,0,40,15)
     cv.imshow("bi_demo",dst)
 
-
 def shift_demo(image):#均值迁移
     dst=cv.pyrMeanShiftFiltering(image,10,50)
     cv.imshow("bi_demo",dst)
